@@ -1,2 +1,2 @@
 # Water-Tracker-and-reminder
-A Python 3 script which shows a GUI once an hour which then you can record your water intake.
+The project I’d like to create will show a window on your computer once an hour at an undecided timeframe, which will give you a prompt on how much water you have taken, how much you still need ot drink to maintain good health. It will then take this information and record it in a txt file. I will then use the file to get an average of how much water I personally drink as a test, then I can see If I improve with this device, the problem being how l barely drink enough water to survive.
