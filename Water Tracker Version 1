@@ -1,0 +1,16 @@
+import tkinter as tk
+from tkinter import simpledialog
+
+Main = tk.Tk()
+
+Main.withdraw()
+# the input dialog
+USER_INP = simpledialog.askstring(title="Water Window!",
+                                  prompt="How much water have you consumed:")
+
+# check it out
+print("you said!", USER_INP)
+Water_File = open('waterlog.txt')
+print(Water_File)
+with open('waterlog.txt', 'a') as file:
+    file.write(USER_INP)
